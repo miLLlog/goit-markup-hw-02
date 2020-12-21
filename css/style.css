@@ -1,10 +1,83 @@
-body {
-  font-family: font-family: 'Roboto', sans-serif;;
-font-weight: 400;
+/* основной текст #757575 */
+/* вторичный текст #212121 */
+/* черный #000000 */
+/* белый #ffffff */
+/* акцент #2196F3 */
+:root {
+  --text-color: #757575;
+  --title-color: #212121;
+  --blue-color: #2196f3;
+  --white-color: #ffffff;
 }
-h2, h3 {
-  font-weight: 700;  
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: var(--text-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+h2,
+h3 {
+  font-weight: 700;
+  color: var(--title-color);
 }
 ul {
-    list-style: none;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* logo */
+.logo {
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.192;
+  color: #000000;
+}
+.logo__second {
+  color: var(--blue-color);
+}
+/* menu */
+.menu {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+}
+.menu .link:hover,
+.menu .link:focus {
+  color: var(--blue-color);
+}
+.contacts a {
+  color: var(--text-color);
+}
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--blue-color);
+}
+/* hero */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.5;
+  letter-spacing: 0.06em;
+  text-align: center;
+  /* color: #ffffff; */
+}
+/* section title */
+.section h2 {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.feature-title {
+  font-size: 14px;
+  line-height: 1.14;
+}
+.team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
