@@ -8,6 +8,7 @@
   --title-color: #212121;
   --blue-color: #2196f3;
   --white-color: #ffffff;
+  --bg-color: #f5f4fa;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -80,4 +81,25 @@ a {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+}
+.button .btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.163;
+  text-align: center;
+  color: var(--title-color);
+  background: var(--bg-color);
+  border-radius: 4px;
+  letter-spacing: 0.03em;
+}
+.cards p {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--text-color);
+}
+.cards .card-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
 }
