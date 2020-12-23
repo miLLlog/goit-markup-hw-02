@@ -8,6 +8,7 @@
   --title-color: #212121;
   --blue-color: #2196f3;
   --white-color: #ffffff;
+  --bg-color: #f5f4fa;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -17,16 +18,21 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-h2,
-h3 {
+.link {
+  text-decoration: none;
+}
+s.title {
   font-weight: 700;
   color: var(--title-color);
 }
-ul {
+.list {
   list-style: none;
 }
-a {
+.link {
   text-decoration: none;
+}
+.section:last-child {
+  background-color: var(--bg-color);
 }
 /* logo */
 .logo {
@@ -63,8 +69,9 @@ a {
   line-height: 1.5;
   letter-spacing: 0.06em;
   text-align: center;
-  /* color: #ffffff; */
 }
+/* color: #ffffff; */
+
 /* section title */
 .section h2 {
   font-size: 36px;
@@ -75,9 +82,40 @@ a {
   font-size: 14px;
   line-height: 1.14;
 }
+
 .team {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+}
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.163;
+  text-align: center;
+  color: var(--title-color);
+  background: var(--bg-color);
+  border-radius: 4px;
+  letter-spacing: 0.03em;
+}
+.btn:hover,
+.btn:focus {
+  background-color: var(--blue-color);
+  color: var(--white-color);
+}
+/* exemple */
+.cards p {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--text-color);
+}
+.cards .card-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+.order {
+  background-color: var(--blue-color);
 }
