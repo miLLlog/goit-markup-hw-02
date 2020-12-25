@@ -21,19 +21,22 @@ body {
 .link {
   text-decoration: none;
 }
-s.title {
+.title {
   font-weight: 700;
   color: var(--title-color);
 }
 .list {
   list-style: none;
 }
-.link {
-  text-decoration: none;
+
+/* .container {
+  display: flex;
+  width: 1179px;
 }
-.section:last-child {
-  background-color: var(--bg-color);
-}
+.nav {
+  display: flex;
+} */
+
 /* logo */
 .logo {
   font-family: Raleway;
@@ -46,6 +49,7 @@ s.title {
 }
 /* menu */
 .menu {
+  /* display: flex; */
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
@@ -69,26 +73,38 @@ s.title {
   line-height: 1.5;
   letter-spacing: 0.06em;
   text-align: center;
+  /* color: #ffffff; */
 }
-/* color: #ffffff; */
+.order {
+  background-color: var(--blue-color);
+}
 
 /* section title */
-.section h2 {
+.section .first-title {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
 }
+/* feature section */
 .feature-title {
   font-size: 14px;
   line-height: 1.14;
 }
-
+/* crew section */
+.crew {
+  background-color: var(--bg-color);
+}
 .team {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
+
+/* ==========portpholio===========*/
+
+/* button */
+
 .btn {
   font-weight: 500;
   font-size: 16px;
@@ -105,7 +121,8 @@ s.title {
   color: var(--white-color);
 }
 /* exemple */
-.cards p {
+
+.cards .par {
   font-size: 16px;
   line-height: 1.88;
   color: var(--text-color);
@@ -115,7 +132,4 @@ s.title {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-color);
-}
-.order {
-  background-color: var(--blue-color);
 }
