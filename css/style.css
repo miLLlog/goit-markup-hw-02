@@ -9,6 +9,7 @@
   --blue-color: #2196f3;
   --white-color: #ffffff;
   --bg-color: #f5f4fa;
+  --bg-color-black: #2f303a;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -36,6 +37,11 @@ body {
 .nav {
   display: flex;
 } */
+
+/* heder */
+.hero {
+  background-color: var(--bg-color-black);
+}
 
 /* logo */
 .logo {
@@ -99,6 +105,9 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+}
+.footer {
+  background-color: var(--bg-color-black);
 }
 
 /* ==========portpholio===========*/
