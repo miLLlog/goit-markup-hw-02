@@ -99,13 +99,21 @@ body {
   line-height: 1.19;
   text-align: center;
 }
+
+/* footer */
+
 .footer {
   background-color: var(--bg-color-black);
 }
-.contacts .city {
+
+.address {
+  font-style: normal;
+}
+
+.address .city {
   color: #ffffff;
 }
-.contacts .item {
+.address .link {
   color: rgba(255, 255, 255, 0.6);
 }
 
