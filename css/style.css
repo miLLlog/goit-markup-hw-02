@@ -10,6 +10,7 @@
   --white-color: #ffffff;
   --bg-color: #f5f4fa;
   --bg-color-black: #2f303a;
+  --black-color: #000000;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -40,7 +41,7 @@ body {
   font-family: Raleway;
   font-size: 26px;
   line-height: 1.192;
-  color: #000000;
+  color: var(--black-color);
 }
 .logo__second {
   color: var(--blue-color);
@@ -104,6 +105,10 @@ body {
 
 .footer {
   background-color: var(--bg-color-black);
+}
+
+.footer .logo {
+  color: var(--white-color);
 }
 
 .address {
