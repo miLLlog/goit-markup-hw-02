@@ -48,17 +48,25 @@ body {
 }
 /* menu */
 .menu {
-  /* display: flex; */
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.02em;
 }
+
+.menu .link {
+  color: var(--title-color);
+}
+
+.menu .menu-link {
+  color: var(--blue-color);
+}
+
 .menu .link:hover,
 .menu .link:focus {
   color: var(--blue-color);
 }
-.contacts a {
+.contacts .link {
   color: var(--text-color);
 }
 .contacts a:hover,
